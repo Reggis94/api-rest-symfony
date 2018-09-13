@@ -3,7 +3,8 @@ security:
     providers:
         your_db_provider:
             entity:
-                class: App\Entity\User
+                # class: App\Entity\User
+                class: App\Entity\Manager
                 property: apiKey
     firewalls:
         dev:

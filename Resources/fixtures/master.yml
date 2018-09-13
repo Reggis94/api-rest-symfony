@@ -1,0 +1,14 @@
+App\Entity\Master:
+    master_1:
+        firstname: Reggy
+        lastname: Admin
+        email: reggy@admin.com
+        apiKey: '9a731224c6189f2.778987214'
+        roles: [ROLE_ADMIN, ROLE_USER]
+        company: '@company_1'
+
+        master_{1..10}:
+        firstname: <firstName()>
+        lastname: <lastName()>
+        email: <email()>
+        company: '@company_<current()>'

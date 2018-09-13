@@ -34,17 +34,17 @@ class User
     private $email;
 
     /**
-     * @ORM\Column(type="date", nullable=false, unique=true)
+     * @ORM\Column(type="datetime", nullable=true)
      */
     private $birthday;
 
     /**
-     * @ORM\Column(type="simple_array")
+     * @ORM\Column(type="simple_array", nullable=true)
      */
     private $roles;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $apiKey;
 

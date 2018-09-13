@@ -44,15 +44,13 @@ use Symfony\Component\HttpFoundation\Request;
          $this->em->flush();
          return $this->view($article);
      }
-/*
-     public function	deleteUserAction($id)
+
+     public function	deleteArticleAction($id)
      {
          $user = $this->userRepository->find($id);
          $this->em->remove($user);
          $this->em->flush();
      }
-     // "delete_user"          [DELETE] /users/{id}
-     */
-
+     // "delete_article"          [DELETE] /articles/{id}
 
  }

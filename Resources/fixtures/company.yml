@@ -1,0 +1,7 @@
+company_{2..10}:
+    name: <company()>
+    slogan: <catchPhrase()>
+    phoneNumber: <phoneNumber()>
+    address: <address()>
+    websiteUrl: <url()>
+    pictureUrl: <imageUrl()>
